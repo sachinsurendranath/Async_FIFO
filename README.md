@@ -9,7 +9,7 @@
 This project implements an **Asynchronous FIFO** designed using **Gray Code Counters** and dual flip-flop synchronizers to ensure safe clock-domain crossing.
 
 ### Key Features
-- **Asynchronous Operation**: Separate write (64 MHz) and read (32 MHz) clock domains.  
+- **Asynchronous Operation**: Separate write (50 MHz) and read (10 MHz) clock domains.  
 - **16-bit Data Width** with burst size up to 128.  
 - **FIFO Depth = 64** (power of two chosen for Gray-code synchronization).  
 - **Dual-Flop Synchronizers** to safely transfer read and write pointers across clock domains.  
